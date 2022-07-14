@@ -1,0 +1,68 @@
+#page-title {
+  font-family: "Bad Script", cursive;
+  color: rgb(107, 53, 94);
+  font-size: 50px;
+  padding: 20px;
+  margin: 100px;
+  border: 10px rgb(107, 53, 94) dotted;
+  border-radius: 10px;
+  background-color: rgb(224, 197, 222);
+}
+
+body {
+  background-color: rgb(228, 209, 225);
+  text-align: center;
+  margin: 0;
+}
+
+#fav-food {
+  background-color: rgb(133, 83, 143);
+  padding: 20px;
+  color: white;
+  font-family: cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+#me-image {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#about-me-description {
+  padding: 80px;
+}
+
+.intro-container {
+  display: flex;
+}
+
+.intro-child {
+  flex-direction: row;
+}
+
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+
+  border: none;
+  outline: none;
+  background-color: rgba(133, 83, 143, 0.479);
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+
+  padding: 10px;
+  margin: 10px;
+
+  cursor: pointer;
+}
+
+footer {
+  padding: 100px;
+}

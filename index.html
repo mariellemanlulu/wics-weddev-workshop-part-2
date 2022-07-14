@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Marielle Manlulu</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      var topButton = document.getElementById("back-to-top-btn");
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </head>
+  <body>
+    <!-- This is a comment -->
+    <h1 id="page-title">Welcome to Marielle's Page</h1>
+    <div class="intro-container" id="intro">
+      <div class="intro-child">
+        <p id="about-me-description">
+          Hello! My name is Marielle Manlulu. My pronouns are
+          <strong>she/her</strong>. I am <u>Filipino</u>. I was born in the
+          Philippines and moved to Canada when I was 11 years old. I am now
+          <u>23</u> and am a student at
+          <strong class="uni">University of Manitoba</strong> studying
+          <strong>Computer Science</strong>. Welcome to my personal website!
+        </p>
+      </div>
+      <div class="intro-child">
+        <img id="me-image" src="images/about-me.jpg" width="300" />
+      </div>
+      <br />
+    </div>
+    <div id="fav-food">
+      <h1 id="fav-food-title">My Favourite Foods</h1>
+      <ul>
+        <li>sashimi</li>
+        <li>rice</li>
+        <li>avocado</li>
+        <li>curry</li>
+      </ul>
+    </div>
+
+    <input
+      id="back-to-top-btn"
+      type="button"
+      value="Top"
+      onclick="topFunction()"
+    />
+  </body>
+  <br />
+  <footer>
+    Made by Marielle with <a href="https://canucanada.org/">CANU</a> and
+    <a href="https://umwics.vercel.app/">WICS</a>. 2022
+  </footer>
+</html>
